@@ -1,10 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A collection of files is created with a .___ file with metadata. You will need
-to commit the repository.
+	A collection of files is created with a .___ file with metadata. You will need
+	to commit the repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	The staging area offers you a place to see what your commits will look like
+	and offers a chance to change your mind before you add them.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
