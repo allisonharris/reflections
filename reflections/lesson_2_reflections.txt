@@ -1,13 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	A collection of files is created with a .___ file with metadata. You will need
-	to commit the repository.
+	A collection of files is created with a .___ file with metadata. It will
+	also create a master branch and you will need to commit the repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	The staging area offers you a place to see what your commits will look like
-	and offers a chance to change your mind before you add them.
+	and offers a chance to change your mind before you actually commit them.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -29,5 +29,17 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	This brings in the changes from two branches into a new commit. This can be
+	beneficial when developing new features or when working as part of a team, as
+	one person can write code independently and then combine it with someone
+	else's work. 
+	
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Pros: automatic merging saves the coder time, especially when working on a
+	collaborative project.
+
+	Cons: it is possible that code can become broken or function differently 
+	than intended depending on when merges occur.
