@@ -12,10 +12,19 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can use git diff --staged to see the differences between the staging area
+	and the working directory to make sure you're only making one logical commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	If you are trying different versions to see which is best, this will be helpful
+	to keep track.
 
 How do the diagrams help you visualize the branch structure?
+
+	This provides a visual of how everything is connected and can help you decide
+	where to put a new branch or where to make changes/commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
